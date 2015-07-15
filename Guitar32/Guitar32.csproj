@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{673A8502-FF3C-4DEA-8C36-9574CF07AA03}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Guitar32</RootNamespace>
+    <AssemblyName>Guitar32</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Guitar32.XML</DocumentationFile>
+    <RegisterForComInterop>false</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>3rd\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animation\Abilities\SmoothScrollAbility.cs" />
+    <Compile Include="Animation\Abilities\StateShiftAbility.cs" />
+    <Compile Include="Animation\Ability.cs" />
+    <Compile Include="Animation\Animator.cs" />
+    <Compile Include="Animation\Components\ShiftableState.cs" />
+    <Compile Include="Caching\CacheItem.cs" />
+    <Compile Include="Caching\CacheItemCollection.cs" />
+    <Compile Include="Caching\Stores\DatabaseCache.cs" />
+    <Compile Include="Caching\Stores\DatabaseRowCache.cs" />
+    <Compile Include="Common\AbstractControlBinder.cs" />
+    <Compile Include="Common\AbstractEncryption.cs" />
+    <Compile Include="Common\IDatabaseEntity.cs" />
+    <Compile Include="Common\IMonitorable.cs" />
+    <Compile Include="Common\INumericDatatype.cs" />
+    <Compile Include="Common\IStringDatatype.cs" />
+    <Compile Include="Common\IUIThread.cs" />
+    <Compile Include="Controllers\ConsoleController.cs" />
+    <Compile Include="Controllers\FormController.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controllers\InputOutput\ConsoleInputState.cs" />
+    <Compile Include="Controllers\InputOutput\ConsoleOutputState.cs" />
+    <Compile Include="Controllers\InputOutput\InputStateArgument.cs" />
+    <Compile Include="Controllers\InputOutput\OutputStateResult.cs" />
+    <Compile Include="Controllers\ModuleController.cs" />
+    <Compile Include="Cryptography\Encryption\Rijndael.cs" />
+    <Compile Include="Cryptography\KeyIVSignature.cs" />
+    <Compile Include="Cryptography\MD5Hash.cs" />
+    <Compile Include="Cryptography\SHA256Hash.cs" />
+    <Compile Include="Database\DatabaseConnection.cs" />
+    <Compile Include="Database\DatabaseCredentials.cs" />
+    <Compile Include="Database\DatabaseCredentialsList.cs" />
+    <Compile Include="Database\KVCondition.cs" />
+    <Compile Include="Database\QueryBuilder.cs" />
+    <Compile Include="Database\QueryResult.cs" />
+    <Compile Include="Database\QueryResultRow.cs" />
+    <Compile Include="Data\ComboBind.cs" />
+    <Compile Include="Data\KVCollection.cs" />
+    <Compile Include="Data\RunnableAction.cs" />
+    <Compile Include="Data\RunnableMethod.cs" />
+    <Compile Include="Data\UIThreadBind.cs" />
+    <Compile Include="Drawing\ForeBackColorSet.cs" />
+    <Compile Include="Enums\FormModes.cs" />
+    <Compile Include="Exceptions\AnimationScrollableException.cs" />
+    <Compile Include="Exceptions\BeanCreationException.cs" />
+    <Compile Include="Exceptions\BeanDataNotFoundException.cs" />
+    <Compile Include="Exceptions\BeanDeletionException.cs" />
+    <Compile Include="Exceptions\ChildBeanCreationException.cs" />
+    <Compile Include="Exceptions\ControlMatchException.cs" />
+    <Compile Include="Exceptions\DataUpdateException.cs" />
+    <Compile Include="Exceptions\DisconnectedException.cs" />
+    <Compile Include="Exceptions\NoRunnableException.cs" />
+    <Compile Include="Exceptions\OutOfRangeLengthException.cs" />
+    <Compile Include="Exceptions\OutOfRangeValueException.cs" />
+    <Compile Include="Exceptions\Reflection\PropertyNotFoundException.cs" />
+    <Compile Include="Exceptions\UIThreadActionNotFoundException.cs" />
+    <Compile Include="Formatting\FormatFactory.cs" />
+    <Compile Include="Formatting\FormatVariables.cs" />
+    <Compile Include="FormData.cs" />
+    <Compile Include="Data\KV.cs" />
+    <Compile Include="IO\ListState.cs" />
+    <Compile Include="Logging\CollectiveLogfile.cs" />
+    <Compile Include="Logging\Logfile.cs" />
+    <Compile Include="Logging\LogfileEntry.cs" />
+    <Compile Include="Model.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SystemResponse.cs" />
+    <Compile Include="Utilities\Arrays.cs" />
+    <Compile Include="Caching\Cache.cs" />
+    <Compile Include="Utilities\Database.cs" />
+    <Compile Include="Utilities\DateTime.cs" />
+    <Compile Include="Utilities\DateTimeSpan.cs" />
+    <Compile Include="Utilities\Diagnostics.cs" />
+    <Compile Include="Utilities\Image.cs" />
+    <Compile Include="Utilities\INIFactory.cs" />
+    <Compile Include="Utilities\Integer.cs" />
+    <Compile Include="Utilities\Math.cs" />
+    <Compile Include="Utilities\ObjectSerializer.cs" />
+    <Compile Include="Utilities\ParameterFactory.cs" />
+    <Compile Include="Utilities\Session.cs" />
+    <Compile Include="Utilities\Strings.cs" />
+    <Compile Include="Validations\TinyInt.cs" />
+    <Compile Include="Utilities\UI\Controls.cs" />
+    <Compile Include="Utilities\UI\DataGridViews.cs" />
+    <Compile Include="Utilities\UI\Forms.cs" />
+    <Compile Include="Utilities\UI\TextBoxes.cs" />
+    <Compile Include="Utilities\Windows.cs" />
+    <Compile Include="Validations\Currency.cs" />
+    <Compile Include="Validations\DateTime.cs" />
+    <Compile Include="Validations\Email.cs" />
+    <Compile Include="Validations\Fax.cs" />
+    <Compile Include="Validations\Gender.cs" />
+    <Compile Include="Validations\GenericUsername.cs" />
+    <Compile Include="Validations\IPAddress.cs" />
+    <Compile Include="Validations\Monitors\InputMonitor.cs" />
+    <Compile Include="Validations\Monitors\InputMonitorCollection.cs" />
+    <Compile Include="Validations\MultiWord.cs" />
+    <Compile Include="Validations\MultiWordAlpha.cs" />
+    <Compile Include="Validations\MultiWordAlphaNumeric.cs" />
+    <Compile Include="Validations\Numeric.cs" />
+    <Compile Include="Validations\Password.cs" />
+    <Compile Include="Validations\SingleWord.cs" />
+    <Compile Include="Validations\SingleWordAlpha.cs" />
+    <Compile Include="Validations\SingleWordAlphaNumeric.cs" />
+    <Compile Include="Validations\Status.cs" />
+    <Compile Include="Validator.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controllers\FormController.resx">
+      <DependentUpon>FormController.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
