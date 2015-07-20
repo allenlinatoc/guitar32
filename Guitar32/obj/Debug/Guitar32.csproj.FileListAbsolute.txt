@@ -1,0 +1,40 @@
+c:\extravolume\misc\my documents\visual studio 2010\Projects\Guitar32\Guitar32\obj\Debug\ResolveAssemblyReference.cache
+c:\extravolume\misc\my documents\visual studio 2010\Projects\Guitar32\Guitar32\bin\Debug\Guitar32.dll
+c:\extravolume\misc\my documents\visual studio 2010\Projects\Guitar32\Guitar32\bin\Debug\Guitar32.pdb
+c:\extravolume\misc\my documents\visual studio 2010\Projects\Guitar32\Guitar32\obj\Debug\Guitar32.dll
+c:\extravolume\misc\my documents\visual studio 2010\Projects\Guitar32\Guitar32\obj\Debug\Guitar32.pdb
+c:\extravolume\misc\my documents\visual studio 2010\Projects\Guitar32\Guitar32\bin\Debug\Guitar32.dll.config
+C:\ExtraVolume\misc\My Documents\Visual Studio 2010\Projects\Guitar32\Guitar32\obj\Debug\Guitar32.Controllers.FormController.resources
+C:\ExtraVolume\misc\My Documents\Visual Studio 2010\Projects\Guitar32\Guitar32\obj\Debug\GenerateResource.read.1.tlog
+C:\ExtraVolume\misc\My Documents\Visual Studio 2010\Projects\Guitar32\Guitar32\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\alinatoc\Documents\Visual Studio 2010\Projects\CS\Guitar32\Guitar32\bin\Debug\Guitar32.dll.config
+C:\Users\alinatoc\Documents\Visual Studio 2010\Projects\CS\Guitar32\Guitar32\bin\Debug\Guitar32.XML
+C:\Users\alinatoc\Documents\Visual Studio 2010\Projects\CS\Guitar32\Guitar32\bin\Debug\Guitar32.dll
+C:\Users\alinatoc\Documents\Visual Studio 2010\Projects\CS\Guitar32\Guitar32\bin\Debug\Guitar32.pdb
+C:\Users\alinatoc\Documents\Visual Studio 2010\Projects\CS\Guitar32\Guitar32\bin\Debug\MySql.Data.dll
+C:\Users\alinatoc\Documents\Visual Studio 2010\Projects\CS\Guitar32\Guitar32\obj\Debug\Guitar32.Controllers.FormController.resources
+C:\Users\alinatoc\Documents\Visual Studio 2010\Projects\CS\Guitar32\Guitar32\obj\Debug\Guitar32.csproj.GenerateResource.Cache
+C:\Users\alinatoc\Documents\Visual Studio 2010\Projects\CS\Guitar32\Guitar32\obj\Debug\Guitar32.dll
+C:\Users\alinatoc\Documents\Visual Studio 2010\Projects\CS\Guitar32\Guitar32\obj\Debug\Guitar32.pdb
+C:\Users\alinatoc\Documents\Visual Studio 2010\Projects\CS\Guitar32\Guitar32\obj\Debug\Guitar32.csprojResolveAssemblyReference.cache
+C:\Users\alinatoc\Documents\Visual Studio 2012\Projects\Guitar32\Guitar32\bin\Debug\Guitar32.dll.config
+C:\Users\alinatoc\Documents\Visual Studio 2012\Projects\Guitar32\Guitar32\bin\Debug\Guitar32.XML
+C:\Users\alinatoc\Documents\Visual Studio 2012\Projects\Guitar32\Guitar32\bin\Debug\Guitar32.dll
+C:\Users\alinatoc\Documents\Visual Studio 2012\Projects\Guitar32\Guitar32\bin\Debug\Guitar32.pdb
+C:\Users\alinatoc\Documents\Visual Studio 2012\Projects\Guitar32\Guitar32\bin\Debug\MySql.Data.dll
+C:\Users\alinatoc\Documents\Visual Studio 2012\Projects\Guitar32\Guitar32\obj\Debug\Guitar32.Controllers.FormController.resources
+C:\Users\alinatoc\Documents\Visual Studio 2012\Projects\Guitar32\Guitar32\obj\Debug\Guitar32.csproj.GenerateResource.Cache
+C:\Users\alinatoc\Documents\Visual Studio 2012\Projects\Guitar32\Guitar32\obj\Debug\Guitar32.dll
+C:\Users\alinatoc\Documents\Visual Studio 2012\Projects\Guitar32\Guitar32\obj\Debug\Guitar32.pdb
+C:\ExtraVolume\misc\My Documents\Visual Studio 2010\Projects\Guitar32\Guitar32\bin\Debug\MySql.Data.dll
+C:\ExtraVolume\misc\My Documents\Visual Studio 2010\Projects\Guitar32\Guitar32\bin\Debug\Guitar32.XML
+C:\Users\alinatoc\Documents\Visual Studio 2013\Projects\Guitar32\Guitar32\bin\Debug\Guitar32.dll.config
+C:\Users\alinatoc\Documents\Visual Studio 2013\Projects\Guitar32\Guitar32\bin\Debug\Guitar32.XML
+C:\Users\alinatoc\Documents\Visual Studio 2013\Projects\Guitar32\Guitar32\bin\Debug\Guitar32.dll
+C:\Users\alinatoc\Documents\Visual Studio 2013\Projects\Guitar32\Guitar32\bin\Debug\Guitar32.pdb
+C:\Users\alinatoc\Documents\Visual Studio 2013\Projects\Guitar32\Guitar32\bin\Debug\MySql.Data.dll
+C:\Users\alinatoc\Documents\Visual Studio 2013\Projects\Guitar32\Guitar32\obj\Debug\Guitar32.Controllers.FormController.resources
+C:\Users\alinatoc\Documents\Visual Studio 2013\Projects\Guitar32\Guitar32\obj\Debug\Guitar32.csproj.GenerateResource.Cache
+C:\Users\alinatoc\Documents\Visual Studio 2013\Projects\Guitar32\Guitar32\obj\Debug\Guitar32.dll
+C:\Users\alinatoc\Documents\Visual Studio 2013\Projects\Guitar32\Guitar32\obj\Debug\Guitar32.pdb
+C:\Users\alinatoc\Documents\Visual Studio 2013\Projects\Guitar32\Guitar32\obj\Debug\Guitar32.csprojResolveAssemblyReference.cache
