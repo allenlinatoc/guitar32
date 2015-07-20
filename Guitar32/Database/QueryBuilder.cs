@@ -241,7 +241,7 @@ namespace Guitar32.Database
                 );
             }
 
-            this.queryString += string.Join(Environment.NewLine, listParams.ToArray());
+            this.queryString += string.Join("," + Environment.NewLine, listParams.ToArray());
             this.padQuery(true);
 
             // Check for any condition/s specified
